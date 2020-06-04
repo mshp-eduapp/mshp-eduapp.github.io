@@ -1446,11 +1446,11 @@ section {
     margin: 5px;
     margin-bottom: 15px;
     transition-duration: 0.5s;
+    border: 1px solid #757575;
 }
 
 .social:hover {
     background-color: transparent;
-    border: 1px solid #757575;
     color: #757575;
 }
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Страница не найдена</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mshp-mini-logo.png" alt="" class="img-logo">
+            <a class="eduapp-name" href="index.html" onclick="topFunction()">На главную</a>
+        </div>
+        <div class="links">
+            <a class="username" href="https://www.instagram.com/fed.egor/">Федоров <br>Егор</a>
+            <img src="img/pic.png" alt="" class="userpic">
+            <a class="eduapp-text mini-margin" href="https://my.informatics.ru/"><i class="fas fa-sign-out-alt icon"></i>Выйти</a>
+        </div>
+        <script>
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </header>
+    <div class="page">
+        <div class="navbar">
+            <div class="menus">
+                <a class="menu" href="index.html"><i class="fas fa-home icon"></i></a>
+                <a class="menu" href="courses.html"><i class="fas fa-random icon"></i></a>
+                <a class="menu" href="diary.html"><i class="progress icon">5 </i></a>
+                <a class="menu" href="group_registrations.html"><i class="fas fa-plus-square icon"></i></a>
+                <a class="menu" href="achievements.html"><i class="fas fa-trophy icon"></i></a>
+            </div>
+        </div>
+        <section>
+            <div class="page-header" onclick="topFunction()">Error #404</div>
+            <div class="content groupreg-content">
+                <div class="groupreg-header">Запрашиваемая страница не существует или находится в разработке.</div>
+                <img src="img/page404.svg" alt="" class="e404-pic">
+            </div>
+        </section>
+    </div>
+</body></html>

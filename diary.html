@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Успеваемость</title>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mshp-mini-logo.png" alt="" class="img-logo" onclick="topFunction()">
+            <a class="eduapp-name" href="index.html">EduApp</a>
+        </div>
+        <div class="links">
+            <a class="username" href="https://www.instagram.com/fed.egor/">Федоров <br>Егор</a>
+            <img src="img/pic.png" alt="" class="userpic">
+            <a class="eduapp-text mini-margin" href="https://my.informatics.ru/"><i class="fas fa-sign-out-alt icon"></i>Выйти</a>
+        </div>
+    </header>
+    <div class="page">
+        <div class="navbar">
+            <div class="menus">
+                <a class="menu" href="index.html"><i class="fas fa-home icon"></i></a>
+                <a class="menu" href="courses.html"><i class="fas fa-random icon"></i></a>
+                <a class="menu active" href="diary.html"><i class="progress icon">5 </i></a>
+                <a class="menu" href="group_registrations.html"><i class="fas fa-plus-square icon"></i></a>
+                <a class="menu" href="achievements.html"><i class="fas fa-trophy icon"></i></a>
+            </div>
+        </div>
+        <section>
+            <div class="page-header" onclick="topFunction()">Успеваемость</div>
+            <div class="content">
+                <div class="diary-block"><a name="diary-c++"></a>
+                    <div class="diary-header">C++ <div class="course-end">c 06.09.2019 по 07.06.2020</div>
+                    </div>
+                    <div class="diary-content">
+                        <div class="course-part">
+                            <div class="part-number">Часть 1</div>
+                            <div class="marks-list">
+                                <div class="mark-5">5+</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-4">4-</div>
+                                <div class="mark-5">5-</div>
+                                <div class="mark-4">4+</div>
+                                <div class="mark-4">4</div>
+                                <div class="mark-4">4</div>
+                                <div class="mark-3">3</div>
+                                <div class="mark-5">5+</div>
+                                <div class="mark-5">5+</div>
+                            </div>
+                            <div class="adaptive-5">
+                                <div class="total">Средний балл: <div class="average-mark"> 4.56</div>
+                                </div>
+                                <div class="total" style="margin-left: 10%;">Итоговая оценка: <div class="average-mark">
+                                        <div class="mark-5">5-</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-part">
+                            <div class="part-number">Часть 2</div>
+                            <div class="marks-list">
+                                <div class="mark-4">4</div>
+                                <div class="mark-3">3</div>
+                                <div class="mark-5">5-</div>
+                                <div class="mark-4">4+</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5-</div>
+                                <div class="mark-4">4</div>
+                                <div class="mark-5">5+</div>
+                                <div class="mark-5">5</div>
+                            </div>
+                            <div class="adaptive-5">
+                                <div class="total">Средний балл: <div class="average-mark"> 4.62</div>
+                                </div>
+                                <div class="total" style="margin-left: 10%;">Итоговая оценка: <div class="average-mark">
+                                        <div class="mark-5">5</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                        <div class="diary-footer">
+                            <a class="course-button" href="courses.html#course-c++">Перейти к курсу</a>
+                            <div class="total" style="color:white;">Годовая оценка: <div class="mark-5">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diary-block"><a name="diary-pc"></a>
+                    <div class="diary-header">Компьютерные сети <div class="course-end">c 01.02.2020 по 07.06.2020</div>
+                    </div>
+                    <div class="diary-content">
+                        <div class="course-part">
+                            <div class="part-number">Часть 1</div>
+                            <div class="marks-list">
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-4">4+</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5-</div>
+                            </div>
+                            <div class="adaptive-5">
+                                <div class="total">Средний балл: <div class="average-mark"> 4.70</div>
+                                </div>
+                                <div class="total" style="margin-left: 10%;">Итоговая оценка: <div class="average-mark">
+                                        <div class="mark-5">5</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                        <div class="diary-footer">
+                            <a class="course-button" href="courses.html#course-pc">Перейти к курсу</a>
+                            <div class="total" style="color:white;">Годовая оценка: <div class="mark-5">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diary-block"><a name="diary-web"></a>
+                    <div class="diary-header">Web-разработка<div class="course-end">c 06.09.2019 по 07.06.2020</div>
+                    </div>
+                    <div class="diary-content">
+                        <div class="course-part">
+                            <div class="part-number">Часть 1</div>
+                            <div class="marks-list">
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5+</div>
+                            </div>
+                            <div class="adaptive-5">
+                                <div class="total">Средний балл: <div class="average-mark"> 5.09</div>
+                                </div>
+                                <div class="total" style="margin-left: 10%;">Итоговая оценка: <div class="average-mark">
+                                        <div class="mark-5">5</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-part">
+                            <div class="part-number">Часть 2</div>
+                            <div class="marks-list">
+                                <div class="mark-5">5-</div>
+                                <div class="mark-5">5+</div>
+                                <div class="mark-5">5-</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5-</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                                <div class="mark-5">5</div>
+                            </div>
+                            <div class="adaptive-5">
+                                <div class="total">Средний балл: <div class="average-mark"> 4.96</div>
+                                </div>
+                                <div class="total" style="margin-left: 10%;">Итоговая оценка: <div class="average-mark" style="margin-right: 10px;">&mdash;</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                        <div class="diary-footer">
+                            <a class="course-button" href="courses.html#course-web">Перейти к курсу</a>
+                            <div class="total" style="color:white;">Годовая оценка: <div class="average-mark" style="margin-right: 10px;">&mdash;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body></html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Главная</title>
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mshp-mini-logo.png" alt="" class="img-logo" onclick="topFunction()">
+            <a class="eduapp-name" href="index.html">EduApp</a>
+        </div>
+        <div class="links">
+            <a class="username" href="https://www.instagram.com/fed.egor/">Федоров <br>Егор</a>
+            <img src="img/pic.png" alt="" class="userpic">
+            <a class="eduapp-text mini-margin" href="https://my.informatics.ru/"><i class="fas fa-sign-out-alt icon"></i>Выйти</a>
+        </div>
+    </header>
+    <div class="page">
+        <div class="navbar">
+            <div class="menus">
+                <a class="menu active" href="index.html"><i class="fas fa-home icon"></i></a>
+                <a class="menu" href="courses.html"><i class="fas fa-random icon"></i></a>
+                <a class="menu" href="diary.html"><i class="progress icon">5 </i></a>
+                <a class="menu" href="group_registrations.html"><i class="fas fa-plus-square icon"></i></a>
+                <a class="menu" href="achievements.html"><i class="fas fa-trophy icon"></i></a>
+            </div>
+        </div>
+        <section>
+            <div class="page-header" onclick="topFunction()">Главная</div>
+            <div class="content">
+                <div class="works-block">
+                    <div class="works-header">Задания</div>
+                    <div class="tasks">
+                        <div class="task">
+                            <div class="adaptive-1">
+                                <div class="donut d-red"></div>
+                                <div class="work-date">
+                                    <div class="work-day">22 мая</div>
+                                    <div class="work-day-weeky">пятница</div>
+                                </div>
+                            </div>
+                            <div class="adaptive-2">
+                                <div class="work-text">C++</div>
+                                <a class="work-text hyper" href="page404.html">Контрольная работа</a>
+                            </div>
+                            <div class="adaptive-3">
+                                <div class="work-text dl-red"><i class="far fa-clock icon"></i>Осталось 8 часов</div>
+                            </div>
+                            <a class="adaptive-4" href="page404.html">
+                                <div class="sucsess-bar">
+                                    <div class="sucsess-line" style="width:25%;"></div>
+                                </div>
+                                <i class="fas fa-chevron-right go-icon adaptive-6"></i>
+                            </a>
+                        </div>
+                        <div class="seperative-line"></div>
+                        <div class="task">
+                            <div class="adaptive-1">
+                                <div class="donut d-yellow"></div>
+                                <div class="work-date">
+                                    <div class="work-day">27 мая</div>
+                                    <div class="work-day-weeky">cреда</div>
+                                </div>
+                            </div>
+                            <div class="adaptive-2">
+                                <div class="work-text">Компьютерные сети</div>
+                                <a class="work-text hyper" href="page404.html">Домашняя работа</a>
+                            </div>
+                            <div class="adaptive-3">
+                                <div class="work-text dl-orange"><i class="far fa-clock icon"></i>Осталось 5 дней</div>
+                            </div>
+                            <a class="adaptive-4" href="page404.html">
+                                <div class="sucsess-bar">
+                                    <div class="sucsess-line" style="width:50%;"></div>
+                                </div>
+                                <i class="fas fa-chevron-right go-icon adaptive-6"></i>
+                            </a>
+                        </div>
+                        <div class="seperative-line"></div>
+                        <div class="task">
+                            <div class="adaptive-1">
+                                <div class="donut d-blue"></div>
+                                <div class="work-date">
+                                    <div class="work-day">4 июня</div>
+                                    <div class="work-day-weeky">четверг</div>
+                                </div>
+                            </div>
+                            <div class="adaptive-2">
+                                <div class="work-text">Web разработка</div>
+                                <a class="work-text hyper" href="page404.html">Итоговый проект</a>
+                            </div>
+                            <div class="adaptive-3">
+                                <div class="work-text dl-orange"><i class="far fa-clock icon"></i>Осталось 13 дней</div>
+                            </div>
+                            <a class="adaptive-4" href="page404.html">
+                                <div class="sucsess-bar">
+                                    <div class="sucsess-line" style="width:100%;"></div>
+                                </div>
+                                <i class="fas fa-chevron-right go-icon adaptive-6"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pages-block">
+                        <div class="works-pages page-selected">1</div>
+                        <div class="works-pages">2</div>
+                        <div class="works-pages">3</div>
+                    </div>
+                </div>
+                <div class="feed-mail">
+                    <div class="feed-block">
+                        <div class="feed-header">Живая лента событий</div>
+                        <div class="event">
+                            <div class="work-date e-d">
+                                <div class="work-day">10 минут назад</div>
+                                <div class="work-day-weeky">новое</div>
+                            </div>
+                            <p class="event-text">Следующее занятие по курсу "Лекторий школы программистов"<br> пройдёт в формате онлайн сегодня в 15:00.
+                            </p>
+                        </div>
+                        <div class="seperative-line"></div>
+                        <div class="event">
+                            <div class="work-date e-d">
+                                <div class="work-day">3 часа назад</div>
+                                <div class="work-day-weeky">прочитано</div>
+                            </div>
+                            <div class="event-text">Вы получили оценку <div class="mark-5">5-</div>по курсу
+                                <a class="hyper hyper-m" href="courses.html#course-c++">C++</a>
+                            </div>
+                        </div>
+                        <div class="seperative-line"></div>
+                        <div class="event">
+                            <div class="work-date e-d">
+                                <div class="work-day">2 дня назад</div>
+                                <div class="work-day-weeky">прочитано</div>
+                            </div>
+                            <div class="event-text">Вы получили оценку <div class="mark-5">5</div>по курсу
+                                <a class="hyper hyper-m" href="courses.html#course-web">Web-разработка</a>
+                            </div>
+                        </div>
+                        <div class="pages-block">
+                            <div class="works-pages page-selected">1</div>
+                            <div class="works-pages">2</div>
+                            <div class="works-pages">3</div>
+                        </div>
+                    </div>
+                    <div class="mail">
+                        <div class="mail-header">Подпишись на уведомления о событиях</div>
+                        <input type="email" placeholder="Адрес эл. почты" required class="form">
+                        <div class="work-day">или</div>
+                        <input type="tel" placeholder="Номер моб. телефона" required class="form">
+                        <input type="submit" class="done" value="Подписаться">
+                    </div>
+                </div>
+                <div class="feed-mail">
+                    <div class="help">
+                        <div class="help-header">Служба поддержки</div>
+                        <div class="help-text">Нужна помощь? Свяжитесь с нами:</div>
+                        <div class="socials">
+                            <a class="social" href="https://wa.me/79037231121"><i class="fab fa-whatsapp"></i></a>
+                            <a class="social" href="viber://chat?number=79037231121"><i class="fab fa-viber"></i></a>
+                            <a class="social" href="https://vk.me/club277240"><i class="fab fa-vk"></i></a>
+                            <a class="social" href="tel:+74951506432"><i class="fas fa-phone-alt"></i></a>
+                            <a class="social" href="mailto:info@informatics.ru"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="l-a-block">
+                        <div class="l-a-header">Последние достижения <a class="go-course" href="achievements.html" style="width:130px;">Посмотреть все<i class="fas fa-chevron-right" style="margin-top: 2px;"></i></a></div>
+                        <div class="l-as">
+                            <a class="adaptive-8" href="achievements.html">
+                                <img src="img/a1.png" alt="" class="l-a">
+                                <img src="img/a2.png" alt="" class="l-a">
+                                <img src="img/a3.png" alt="" class="l-a">
+                            </a>
+                            <a class="adaptive-7" href="achievements.html">
+                                <img src="img/a4.png" alt="" class="l-a">
+                                <img src="img/a5.png" alt="" class="l-a">
+                                <img src="img/a6.png" alt="" class="l-a">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body></html>

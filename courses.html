@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <title>Курсы</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/mshp-mini-logo.png" alt="" class="img-logo" onclick="topFunction()">
+            <a class="eduapp-name" href="index.html">EduApp</a>
+        </div>
+        <div class="links">
+            <a class="username" href="https://www.instagram.com/fed.egor/">Федоров <br>Егор</a>
+            <img src="img/pic.png" alt="" class="userpic">
+            <a class="eduapp-text mini-margin" href="https://my.informatics.ru/"><i class="fas fa-sign-out-alt icon"></i>Выйти</a>
+        </div>
+        <script>
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 64 || document.documentElement.scrollTop > 64) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </header>
+    <div class="page">
+        <div class="navbar">
+            <div class="menus">
+                <a class="menu" href="index.html"><i class="fas fa-home icon"></i></a>
+                <a class="menu active" href="courses.html"><i class="fas fa-random icon"></i></a>
+                <a class="menu" href="diary.html"><i class="progress icon">5 </i></a>
+                <a class="menu" href="group_registrations.html"><i class="fas fa-plus-square icon"></i></a>
+                <a class="menu" href="achievements.html"><i class="fas fa-trophy icon"></i></a>
+            </div>
+        </div>
+        <section>
+            <div class="page-header" onclick="topFunction()">Курсы</div>
+            <div class="content">
+                <div class="course">
+                    <div class="course-header">
+                        <div>C++</div><a name="course-c++"></a>
+                        <a class="go-course" href="page404.html">Перейти<i class="fas fa-chevron-right" style="margin-top: 2px;"></i></a>
+                    </div>
+                    <div class="course-content">
+                        <img src="img/c++-icon.svg" alt="" class="course-icon">
+                        <div class="marks-container">
+                            <a class="marks-c-header" href="diary.html#diary-c++">
+                                Оценки <i class="fas fa-chevron-right go-icon" style="margin-top: 0; margin-right: 20px;"></i>
+                            </a>
+                            <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="marks-text-column">
+                                    Всего оценок: <br> Средний балл: <br> Оценка за курс:
+                                </div>
+                                <div class="marks-items-column">
+                                    14 <br> 4.56 <br>
+                                    <div class="mark-5" style="padding: 0;">5</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-info-block">
+                            <div class="course-mini-info">
+                                <div class="t-block">
+                                    <i class="fas fa-chalkboard-teacher t-icon"></i>
+                                    <div class="teacher">Зайнутдинов Кирилл Русланович</div>
+                                </div>
+                                <div class="t-block">
+                                    <i class="fas fa-map-marker-alt t-icon"></i>
+                                    <div class="teacher">Москва, Профсоюзная, Каб. Сорбонна</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
+                                <i class="far fa-calendar-alt c-icon"></i>
+                                <div class="calendar">Последние занятия:</div>
+                            </div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">22 мая</div>
+                                    <div class="work-day-weeky">пятница</div>
+                                    <div class="work-day-weeky">17:00 - 18:30</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Семестровая контрольная работа.<br> Строки, ссылки и файлы
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                            <div class="seperative-line"></div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">15 мая</div>
+                                    <div class="work-day-weeky">пятница</div>
+                                    <div class="work-day-weeky">17:00 - 18:30</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Произвольный доступ к файлам
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-header">
+                        <div>Компьютерные сети</div><a name="course-pc"></a>
+                        <a class="go-course" href="page404.html">Перейти<i class="fas fa-chevron-right" style="margin-top: 2px;"></i></a>
+                    </div>
+                    <div class="course-content">
+                        <img src="img/pc-icon.svg" alt="" class="course-icon">
+                        <div class="marks-container">
+                            <a class="marks-c-header" href="diary.html#diary-pc">
+                                Оценки <i class="fas fa-chevron-right go-icon" style="margin-top: 0; margin-right: 20px;"></i>
+                            </a>
+                            <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="marks-text-column">
+                                    Всего оценок: <br> Средний балл: <br> Оценка за курс:
+                                </div>
+                                <div class="marks-items-column">
+                                    7 <br> 4.70 <br>
+                                    <div class="mark-5" style="padding: 0;">5-</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-info-block">
+                            <div class="course-mini-info">
+                                <div class="t-block">
+                                    <i class="fas fa-chalkboard-teacher t-icon"></i>
+                                    <div class="teacher">Евгранов Илья Александрович</div>
+                                </div>
+                                <div class="t-block">
+                                    <i class="fas fa-map-marker-alt t-icon"></i>
+                                    <div class="teacher">Москва, Профсоюзная, Каб. Сорбонна</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
+                                <i class="far fa-calendar-alt c-icon"></i>
+                                <div class="calendar">Последние занятия:</div>
+                            </div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">20 мая</div>
+                                    <div class="work-day-weeky">среда</div>
+                                    <div class="work-day-weeky">17:00 - 18:30</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Тема 18. Функционирование сетей.<br> Командная тренировка
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                            <div class="seperative-line"></div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">13 мая</div>
+                                    <div class="work-day-weeky">среда</div>
+                                    <div class="work-day-weeky">17:00 - 18:30</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Тема 17. Анализ сетевой активности. <br> Ситуативный анализ
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-header">
+                        <div>Web-разработка</div><a name="course-web"></a>
+                        <a class="go-course" href="page404.html">Перейти<i class="fas fa-chevron-right" style="margin-top: 2px;"></i></a>
+                    </div>
+                    <div class="course-content">
+                        <img src="img/web-icon.svg" alt="" class="course-icon">
+                        <div class="marks-container">
+                            <a class="marks-c-header" href="diary.html#diary-web">
+                                Оценки <i class="fas fa-chevron-right go-icon" style="margin-top: 0; margin-right: 20px;"></i>
+                            </a>
+                            <div class="seperative-line" style="background-color: #2c2c2c;"></div>
+                            <div style="display: flex; flex-direction: row;">
+                                <div class="marks-text-column">
+                                    Всего оценок: <br> Средний балл: <br> Оценка за курс:
+                                </div>
+                                <div class="marks-items-column">
+                                    16 <br> 4.96 <br>
+                                    <div class="mark-5" style="padding: 0;">5+</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-info-block">
+                            <div class="course-mini-info">
+                                <div class="t-block">
+                                    <i class="fas fa-chalkboard-teacher t-icon"></i>
+                                    <div class="teacher">Луллис Роман Владимирович</div>
+                                </div>
+                                <div class="t-block">
+                                    <i class="fas fa-map-marker-alt t-icon"></i>
+                                    <div class="teacher">Москва, Профсоюзная, Каб. Стенфорд</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; flex-direction: row; margin-bottom: 10px;">
+                                <i class="far fa-calendar-alt c-icon"></i>
+                                <div class="calendar">Последние занятия:</div>
+                            </div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">22 мая</div>
+                                    <div class="work-day-weeky">пятница</div>
+                                    <div class="work-day-weeky">18:40 - 20:10</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Адаптивность. <br> Использование префиксов max- и min-
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                            <div class="seperative-line"></div>
+                            <a class="last-lesson" href="page404.html">
+                                <div class="lesson-date">
+                                    <div class="work-day">15 мая</div>
+                                    <div class="work-day-weeky">пятница</div>
+                                    <div class="work-day-weeky">18:40 - 20:10</div>
+                                </div>
+                                <div class="lesson-theme">
+                                    Элементы форм. <br> Практические приемы верстки на FlexBox
+                                    <i class="fas fa-chevron-right go-icon"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body></html>
